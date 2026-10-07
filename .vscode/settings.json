@@ -1,0 +1,10 @@
+{
+  "cmake.configureOnOpen": false,
+  "cmake.cmakePath": "C:/Program Files/CMake/bin/cmake.exe",
+  "C_Cpp.default.cppStandard": "c++17",
+  "C_Cpp.default.includePath": [
+    "${workspaceFolder}/lib",
+    "C:/opencv-4.14.0/opencv/build/include"
+  ],
+  "files.encoding": "utf8"
+}

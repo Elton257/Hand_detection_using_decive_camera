@@ -1,0 +1,45 @@
+# --- Build output ---
+build/
+out/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CMakeUserPresets.json
+Makefile
+
+# --- Compiled files ---
+*.exe
+
+*.dll
+*.lib
+*.exp
+*.pdb
+*.ilk
+*.obj
+*.o
+*.idb
+*.ipch
+
+# --- Runtime files written next to HandBoard.exe ---
+HandBoard.log
+HandBoard_foto_*.bmp
+
+# --- Editors ---
+# keep the shared VS Code setup, ignore personal state
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/settings.json
+!.vscode/extensions.json
+.vs/
+*.user
+*.suo
+
+# Temporary copy that rregullo.bat moves into .vscode/
+vscode-config/
+
+# --- OS ---
+Thumbs.db
+desktop.ini
+.DS_Store
